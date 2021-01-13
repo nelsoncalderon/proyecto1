@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Viga&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background:#050505;
+    
+}
+
+body::-webkit-scrollbar-thumb{
+    background: #FCDE00; 
+}
+
+#contenedor_cargar{
+
+    background-color: #050505;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    transition: 3.0s;
+    
+  }
+
+  #cargar {
+    
+  padding: 10%;
+
+  }
+
+  #cargar img{
+
+    width: 50%;
+    height: 50%;
+   
+  
+  }
+
+
+
+.contenedor{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.servicios{
+  
+    display: flex;
+    padding-top: 105px;
+   justify-content: center;
+   margin-bottom: -10px;
+}
+
+.servicios img{
+    width: 90%;
+    height: 150px;
+}
+
+
+
+.introduccion {
+   
+    
+    display: flex;
+    justify-content: center;
+    border-top: solid 3px #FCDE00;    
+    border-bottom: solid 3px #FCDE00;
+    margin-bottom: 5px;
+    height: 410px;
+    margin-bottom: 10px;
+}
+
+
+.contenidointro{
+   margin: 0;
+   padding: 0;
+    width: 50%;
+
+}
+
+.contenidointro img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.textofon{
+
+    width: 50.10%;
+    height: 404px;
+    position: absolute;
+    background-color: rgba(8, 8, 8, 0.918);
+    padding: 5%;
+    left: -1px;
+
+}
+
+
+
+.textofon h1{
+
+    color: white;
+    margin-bottom: 10px;
+    text-shadow: 3px 3px 2px rgba(000, 000, 000, 0.70);
+    font-family: 'Viga', sans-serif;
+    margin-left: -20px;
+   
+
+}
+
+.textofon p {
+    
+    margin-left: -50px;
+    color: white;
+    text-align : justify;
+    padding: 5%;
+    font-family: 'Sanchez', serif;
+   
+}
+
+
+
+
+
+
+.video {
+
+    width: 50%;
+    background: #121215;
+    padding: 2%;
+
+}
+
+.video video {
+
+    width: 100%;
+    outline: none;
+   
+}
+
+
+
+.introduccion2{
+
+    display: flex;
+    justify-content: center;
+    border-top: solid 3px #FCDE00;    
+    border-bottom: solid 3px #FCDE00;
+    margin-bottom: 5px;
+
+}
+
+.introduccion2 img{
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+    
+}
+
+
+
+.contenidointro2{
+
+   
+    background-color: rgba(8, 8, 8, 0.918);
+    position: absolute;
+    padding: 15%;
+    height: 410px;
+   
+
+}
+
+.contenidointro2 h2{
+
+    margin-top: -100px;
+    color: white;
+    text-shadow: 3px 3px 2px rgba(000, 000, 000, 0.70);
+    font-family: 'Viga', sans-serif;
+
+}
+
+.contenidointro2 p{
+
+    
+    color: white;
+    padding: 1%;
+    font-family: 'Sanchez', serif;
+    text-align : justify;
+    
+}
+
+.botones2 h2 {
+    position: absolute;
+    margin-left: -500px;
+    margin-top: 210px;
+    color: white;
+    font-family: 'Viga', sans-serif;
+    
+}
+
+.botones2 button{
+    background-color: #FCDE00;
+    border: none;
+    width: 8%;
+    height: 5%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 300ms;
+    position: absolute;
+    margin-left: -420px;
+    margin-top: 270px;
+    color: rgb(2, 2, 2);
+    outline: none;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.botones2 img {
+
+    display: flex;
+    position: absolute;
+    width: 240px;
+    height: 150px;
+    margin-left: -400px;
+    margin-top: 260px;
+   
+
+}
+
+.contenido-contacto{
+
+  
+}
+
+.suelos{
+  
+}
+
+.suelos img{
+    width: 100%;
+    height: 300px;
+    
+}
+
+.fondo3 {
+    width: 100%;
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.685);
+    margin-top: -151px;
+    position: absolute;
+    color: white;
+  
+}
+
+.fondo3 p{
+     padding: 3%;
+}
+
+
+.fondo3 h2 {
+    font-size: 30px;
+}
+
+.fondo3 h3{
+    text-align: center;
+}

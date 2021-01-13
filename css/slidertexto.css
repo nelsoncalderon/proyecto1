@@ -1,0 +1,132 @@
+.slideshow-container {
+   
+    position: relative;
+    height: 510px;
+    border-top: solid 3px #FCDE00; 
+    background-color: rgba(8, 8, 8, 0.918);
+   
+    
+    
+  }
+
+  .contenido-fondo{
+
+   
+    position: absolute;
+    z-index: -100;
+ 
+  }
+
+  .contenido-fondo img {
+
+    width: 100%;
+    height: 521px;
+
+  }
+  
+  .mySlides {
+
+    
+    margin-top: 40px;
+    display: none;
+    padding: none;
+    text-align: center;
+
+  }
+
+  .mySlides p{
+
+  margin-top: 10px;
+  font-size: 20px;
+  text-shadow: 3px 3px 2px rgba(000, 000, 000, 0.70);
+  font-family: 'Sanchez', serif;
+    
+  }
+
+  .titulo h2 {
+   
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgba(000, 000, 000, 0.70);
+    font-family: 'Viga', sans-serif;
+    margin-bottom: 40px;
+
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  .prev {
+    margin-left: 130px;
+  }
+
+
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    margin-right: 100px;
+  
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+  }
+  
+  .dot-container {
+   
+    text-align: center;
+    padding: 10px;
+    background: rgb(22, 22, 22);
+    border-bottom: solid 3px #FCDE00; 
+    
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 10px;
+    width: 40px;
+    margin: 0 2px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+  }
+  
+  .active, .dot:hover {
+    background-color: rgb(131, 131, 131); 
+  }
+  
+  q {font-style: italic;}
+  
+  .author {color: rgb(255, 255, 255);}
+
+ 
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

@@ -1,0 +1,454 @@
+
+
+.contenedorQ{
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 430px;
+  padding-top: 170px;
+  background-image: url(../imagenes/imagenes/20.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.contenedorQ .cardQ {
+
+position: relative;
+width: 60%;
+height: 380px;
+background: rgba(29, 30, 35, 0.808);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.contenedorQ .cardQ:nth-child(1){
+
+  background: linear-gradient(45deg,#FCDE00);
+
+}
+
+.imgnosotros img{
+
+  width: 400px;
+  z-index: 3;
+
+}
+
+.contenedorQ .cardQ .imgnosotros {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.contenedorQ .cardQ .imgnosotros h2{
+
+  margin: 10px 0 0;
+  padding: 0;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: 'Viga', sans-serif;
+  font-size: 50px;
+  z-index: 3;
+}
+
+.contenedorQ .cardQ .abrir button {
+
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background: #FCDE00;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  cursor: pointer;
+  border-radius: 50%;
+ 
+  color:black;
+  border: none;
+  outline: none;
+  font-family: 'Viga', sans-serif;
+  transition: all 300ms;
+  transition: 0.5s;
+  
+
+}
+
+.contenedorQ .cardQ .cerrar button {
+
+  position: absolute;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background: #FCDE00;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+  cursor: pointer;
+  border-radius: 50%;
+  color:black;
+  border: none;
+  outline: none;
+  font-family: 'Viga', sans-serif;
+  transition: all 300ms;
+  transition: 0.5s;
+  
+
+}
+
+.abrir button:hover{
+
+  transform: scale(1.5);
+
+}
+
+
+.contenedorQ .cardQ .textonosotros2{
+
+  height: 380px;
+  overflow-y: scroll;
+  padding: 50px;
+  box-sizing: border-box;
+  z-index: 1;
+  display: none;
+  transition: 0s;
+  color: white;
+  background: #1D1E23;
+
+}
+
+.contenedorQ .cardQ .textonosotros2 h2{
+
+  margin-top: -20;
+  font-size: 50px;
+}
+
+.textonosotros2::-webkit-scrollbar{
+  width: 10px;
+  background:#050505;
+  
+}
+
+.textonosotros2::-webkit-scrollbar-thumb{
+  background: #FCDE00; 
+}
+
+.Scrolldown{
+
+  position: absolute;
+  bottom: -60px;
+  left: 80%;
+  width: 40px;
+  height: 40px;
+  transform: translateY(-80px) translateX(-50%) rotate(-45deg);
+}
+
+.Scrolldown span {
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+  animation: animate 1.5s linear infinite;
+  opacity: 0;
+}
+
+.Scrolldown span:nth-child(1){
+
+  transform: translate(-15px,-15px);
+  animation-delay: -0.4s;
+}
+
+.Scrolldown span:nth-child(2){
+
+  transform: translate(0,0);
+  animation-delay: -0.2s;
+}
+
+.Scrolldown span:nth-child(3){
+
+  transform: translate(15px,15px);
+  animation-delay: -0s;
+}
+
+@keyframes animate{
+
+  0%{
+
+    top:-5px;
+    left: -5px;
+    opacity: 0;
+  }
+
+  25%{
+
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+  }
+
+  50%,100%{
+
+    top: 5px;
+    left: 5px;
+    opacity: 0;
+  }
+
+
+
+}
+
+
+.contenedor-vi{
+
+    display: flex;
+    border-top: solid 3px #FCDE00;   
+    border-bottom: solid 3px #FCDE00;
+    margin-bottom: 60px;
+}
+
+.contenedor-vi::after {
+
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.texto1 h2 , .texto2 h2 {
+    font-family: 'Viga', sans-serif;
+}
+
+.texto1{
+
+   
+    text-align : justify;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+    padding: 5%;
+    background: #1D1E23;
+    color: white;
+    font-family: 'Sanchez', serif;
+}
+
+
+.texto1 p{
+    margin-top: -20px;
+}
+
+.texto2{
+
+   
+    text-align : justify;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+    padding: 5%;
+    background-color: #FCDE00; 
+    font-family: 'Sanchez', serif;  
+}
+
+.texto2 p {
+    margin-top: -20px;
+}
+
+
+
+  .equipo-trabajo{
+    background: #1D1E23;
+   
+  }
+ 
+  .contenedor-equipo{
+   
+    margin-left: 80px;
+    
+    
+  }
+
+  .contenedor-equipo h2{
+
+    text-shadow: 3px 3px 2px rgba(000, 000, 000, 0.70);
+    color: white;
+    font-family: 'Viga', sans-serif;
+    padding-top: 50px;
+    margin-left: 5px;
+    font-size: 40px;
+
+  }
+
+  
+
+  .card img {
+
+    width: 100%;
+   
+  }
+
+
+
+  .container2 {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FCDE00; 
+    overflow: hidden;
+    width: 10px;
+    height: 66%;
+    transition: .5s ease;
+    margin-bottom: 149px;
+  }
+  
+  .container2:hover .overlay2 {
+    width: 100%;
+    background-color: rgba(29, 30, 35, 0.692);
+  }
+ .container2:hover .text{
+   display: block;
+ }
+ 
+  .text {
+
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .text p{
+
+    text-align : justify;
+    color: white;
+    padding: 15%;
+    transition: .5s;
+    font-family: 'Sanchez', serif;
+ 
+  }
+
+
+  
+  .column {
+    float: left;
+    width: 30%;
+    margin-bottom: 30px;
+    padding: 0 8px;
+   
+  }
+ 
+  .card {
+
+    background: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+
+  .container h3 {
+    text-shadow: none;
+    color: black;
+    font-family: 'Viga', sans-serif;
+    font-size: 30px;
+    margin-bottom: -10px;
+  }
+
+  .container p{
+    font-family: 'Sanchez', serif;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    font-family: 'Sanchez', serif;
+  }
+
+  .title p{
+    font-family: 'Sanchez', serif;
+  }
+  
+
+  .progreso{
+    margin-top: -30px;
+    margin-left: 200px;
+  }
+
+  .column2 {
+    float: left;
+    width: 20%;
+    padding: 0 5px;
+  }
+  
+  
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+ 
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #FCDE00; 
+    color: black;
+    font-family: 'Viga', sans-serif;
+  }
+  
+  .fa {font-size:50px;}
+
+
+
+
+ 
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .column2 {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
